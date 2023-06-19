@@ -29,19 +29,19 @@ public class Main {
 
             if (operation == 1) {
                 resultant = numberOne + numberTwo;
-                System.out.println("Resultado da adicao: " + resultant);
+                System.out.println("Resultado da adição: " + resultant);
             } else if (operation == 2) {
                 resultant = numberOne - numberTwo;
-                System.out.println("Resultado da subtracao: " + resultant);
+                System.out.println("Resultado da subtração: " + resultant);
             } else if (operation == 3) {
                 resultant = numberOne * numberTwo;
-                System.out.println("Resultado da multiplicacao: " + resultant);
+                System.out.println("Resultado da multiplicação: " + resultant);
             } else {
                 resultant = numberOne / numberTwo;
-                System.out.println("Resultado da divisao: " + resultant);
+                System.out.println("Resultado da divisão: " + resultant);
             }
 
-            System.out.println("Deseja sair? [1]sim [2]nao");
+            System.out.println("Deseja sair? [1]sim [2]não");
             int outSys = scan.nextInt();
             if (outSys == 1) {
                 sair = false;
