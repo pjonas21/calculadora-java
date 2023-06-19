@@ -41,14 +41,10 @@ public class Main {
                 System.out.println("Resultado da divisão: " + resultant);
             }
 
-            System.out.println("Deseja sair? [1]sim [2]não");
+            System.out.println("Deseja sair? [1]sim");
             int outSys = scan.nextInt();
             if (outSys == 1) {
                 sair = false;
-            } else if (outSys == 2) {
-                sair = true;
-            } else {
-                outSys = scan.nextInt();
             }
         }
 
